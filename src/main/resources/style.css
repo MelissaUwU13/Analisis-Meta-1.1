@@ -1,0 +1,153 @@
+/* ==========================================
+   ESTILOS GENERALES Y CONTENEDORES
+   ========================================== */
+.root-container {
+    -fx-background-color: #eef2f7;
+    -fx-padding: 24;
+}
+
+.scroll-pane {
+    -fx-background-color: #eef2f7;
+    -fx-background: #eef2f7;
+}
+
+/* Header Principal */
+.header-box {
+    -fx-background-color: #4c64e4;
+    -fx-padding: 18 20;
+    -fx-background-radius: 6;
+    -fx-alignment: center-left;
+}
+
+.header-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-fill: white;
+}
+
+/* Tarjetas (Cards) */
+.card {
+    -fx-background-color: white;
+    -fx-padding: 18;
+    -fx-background-radius: 6;
+    -fx-border-color: #d7dee6;
+    -fx-border-radius: 6;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(28,63,102,0.06), 6, 0, 0, 1);
+}
+
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4c64e4;
+    -fx-padding: 0 0 6 0;
+    -fx-border-color: transparent transparent #d7dee6 transparent;
+    -fx-border-width: 0 0 2 0;
+}
+
+/* Etiquetas y Entradas */
+.field-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #3a4a5a;
+    -fx-font-size: 12px;
+}
+
+.text-field {
+    -fx-background-color: #f7f9fb;
+    -fx-background-radius: 4;
+    -fx-border-color: #c3cedb;
+    -fx-border-radius: 4;
+    -fx-border-width: 1;
+    -fx-padding: 7;
+    -fx-text-fill: #26374a;
+}
+
+.text-field:focused {
+    -fx-border-color: #1c3f66;
+    -fx-background-color: white;
+}
+
+/* ==========================================
+   BOTONES
+   ========================================== */
+.button {
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+}
+
+.btn-agregar {
+    -fx-background-color: #26ca17;
+}
+.btn-agregar:hover {
+    -fx-background-color: #3a7706;
+}
+
+.btn-modificar {
+    -fx-background-color: #d65907;
+}
+.btn-modificar:hover {
+    -fx-background-color: #7a3704;
+}
+
+.btn-eliminar {
+    -fx-background-color: #c61f1f;
+}
+.btn-eliminar:hover {
+    -fx-background-color: #710b0b;
+}
+
+.btn-limpiar {
+    -fx-background-color: #7c8a99;
+}
+.btn-limpiar:hover {
+    -fx-background-color: #64707d;
+}
+
+/* ==========================================
+   TABLAS
+   ========================================== */
+.table-view {
+    -fx-background-radius: 4;
+    -fx-border-color: #d7dee6;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #4c64e4;
+    -fx-background-radius: 4 4 0 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 34;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #eef2f7 transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f5f8fb;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dce8f4;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #1c3f66;
+}

@@ -5,7 +5,7 @@ import java.sql.*;
 public class AgendaDB {
     // Datos de conexión a la base de datos
     private static final String URL = "jdbc:mariadb://localhost:3306/agenda";
-    private static final String USER = "user1";
+    private static final String USER = "usuario1";
     private static final String PASSWORD = "superpassword";
 
     public static void main(String[] args) {
